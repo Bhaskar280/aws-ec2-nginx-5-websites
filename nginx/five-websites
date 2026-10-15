@@ -1,0 +1,34 @@
+server {
+    listen 80;
+    server_name _;
+    root /var/www/site1;
+    index index.html;
+}
+
+server {
+    listen 8080;
+    server_name _;
+    root /var/www/site2;
+    index index.html;
+}
+
+server {
+    listen 8081;
+    server_name _;
+    root /var/www/site3;
+    index index.html;
+}
+
+server {
+    listen 9090;
+    server_name _;
+    root /var/www/site4;
+    index index.html;
+}
+
+server {
+    listen 9091;
+    server_name _;
+    root /var/www/site5;
+    index index.html;
+}
